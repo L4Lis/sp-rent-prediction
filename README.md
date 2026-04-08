@@ -1,15 +1,15 @@
-# 🏠 SP Rent Prediction
+# SP Rent Prediction
 
 Este repositório documenta meu primeiro estudo prático sobre Data Science, aplicado ao mercado imobiliário. Como estudante, meu objetivo é demonstrar o processo de análise de dados, desde o tratamento inicial até a criação de modelos preditivos.
 
 
-## 📌 Status do Projeto
+## Status do Projeto
 - [x] **Fase 1: Análise Exploratória de Dados (EDA)** - Concluído.
 - [x] **Fase 2: Modelagem e Machine Learning** - Concluído.
 - [x] **Fase 3: Avaliação de Resultados** - Concluído.
 
 
-## 🔍 O que foi desenvolvido (Fase 1: EDA)
+## O que foi desenvolvido (Fase 1: EDA)
 
 Nesta primeira etapa, foquei na Análise Exploratória de Dados (EDA). Algumas das principais decisões que tomei durante o processo:
 
@@ -22,7 +22,7 @@ Nesta primeira etapa, foquei na Análise Exploratória de Dados (EDA). Algumas d
 ![Heatmap de correlação](img/heatmap.png)
 
 
-## 🤖 O que foi desenvolvido (Fase 2 e 3: Modelagem)
+## O que foi desenvolvido (Fase 2 e 3: Modelagem)
 
 Nesta etapa, transformei os insights da EDA em um modelo preditivo para estimar o valor do aluguel:
 
@@ -42,7 +42,7 @@ A proximidade dos pontos em relação à linha pontilhada indica a precisão das
 ![Gráfico de Dispersão Real vs Previsto](img/real_vs_previsto.png)
 
 
-## 📈 Insights da Modelagem
+## Insights da Modelagem
 
 O modelo revelou o "peso" financeiro de algumas variáveis. De acordo com os coeficientes da Regressão Linear, os bairros que mais aumentam o valor do aluguel no dataset são:
 
@@ -51,7 +51,7 @@ O modelo revelou o "peso" financeiro de algumas variáveis. De acordo com os coe
 3. Vila Olímpia (+ R$ 2.457)
 
 
-## 🛠️ Tecnologias e Bibliotecas:
+## Tecnologias e Bibliotecas:
 
 * **Manipulação:** Pandas e Numpy.
 * **Visualização:** Seaborn e Matplotlib.
@@ -59,7 +59,7 @@ O modelo revelou o "peso" financeiro de algumas variáveis. De acordo com os coe
 * **Persistência:** Joblib (para salvar o modelo treinado).
 
 
-## 📂 Estrutura de Pastas
+## Estrutura de Pastas
 
 ```
 ├── data/
