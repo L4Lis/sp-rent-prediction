@@ -19,6 +19,8 @@ Nesta primeira etapa, foquei na Análise Exploratória de Dados (EDA). Algumas d
    * A área do imóvel (`Size`) é o fator de maior correlação com o preço (0.71).
    * Curiosamente, o número de vagas de garagem (`Parking`) mostrou-se mais impactante no valor do aluguel do que o número de quartos (`Rooms`).
 
+![Heatmap de correlação](img/heatmap.png)
+
 
 ## 🤖 O que foi desenvolvido (Fase 2 e 3: Modelagem)
 
@@ -28,6 +30,16 @@ Nesta etapa, transformei os insights da EDA em um modelo preditivo para estimar 
 * **Algoritmo:** Utilizei Regressão Linear com a biblioteca Scikit-Learn.
 * **Divisão de Dados:** Separei o dataset em 80% para treino e 20% para teste.
 * **Performance:** O modelo alcançou um R² Score de 0.7414. Isso significa que as variáveis escolhidas explicam cerca de 74% da variação dos preços de aluguel em SP.
+
+### Importância das Variáveis
+Este gráfico destaca quais fatores (como localização ou tamanho) tiveram maior peso na decisão do modelo.
+
+![Importância das Variáveis](img/feature_importance.png)
+
+### Real vs. Previsto
+A proximidade dos pontos em relação à linha pontilhada indica a precisão das previsões.
+
+![Gráfico de Dispersão Real vs Previsto](img/real_vs_previsto.png)
 
 
 ## 📈 Insights da Modelagem
@@ -53,6 +65,7 @@ O modelo revelou o "peso" financeiro de algumas variáveis. De acordo com os coe
 ├── data/
 │   ├── raw/            # Dados originais
 │   └── processed/      # Dados limpos
+├── img/                # Imagens do README
 ├── models/             # Modelo treinado em pkl
 ├── notebooks/          # Notebooks de EDA e Modelagem
 └── README.md
